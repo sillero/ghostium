@@ -1,6 +1,7 @@
 {{!< default}}
 
 <section class="wrapper wrapper-post">
+  {{#if post.image}}<img src="{{post.image}}" width="100%">{{/if}}
   <div class="wrapper-container">
     <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post {{post_class}}">
       {{#post}}
