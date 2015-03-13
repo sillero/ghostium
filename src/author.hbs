@@ -1,0 +1,17 @@
+{{!< default}}
+
+{{> cover this}}
+
+<section class="wrapper" tabindex="0">
+  <div class="wrapper-container">
+    {{#author}}
+      <section class="author">
+          <h1>About {{name}}</h1>
+          
+          <p>{{bio}}</p>
+      </section>
+    {{/author}}
+
+    {{> footer this}}
+  </div>
+</section>
